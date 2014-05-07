@@ -20,7 +20,10 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 3.0.0'
+
+gem 'spree', github: 'spree/spree', branch: '2-0-stable'
+gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
