@@ -25,6 +25,15 @@ gem 'jquery-rails', '~> 3.0.0'
 gem 'spree', github: 'spree/spree', branch: '2-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
 
+group :development, :test do
+  gem 'sqlite3'
+end
+
+group :production do
+  gem 'mysql2'
+  gem 'cloudcontrol-rails', '0.0.6'
+end
+
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
