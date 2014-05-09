@@ -21,6 +21,7 @@ gem 'jquery-rails', '~> 3.0.0'
 
 gem 'spree', github: 'spree/spree', branch: '2-0-stable'
 gem 'spree_auth_devise', github: 'spree/spree_auth_devise', branch: '2-0-stable'
+gem 'spree_social', github: 'spree/spree_social', branch: '2-0-stable'
 
 group :development, :test do
   gem 'sqlite3'
